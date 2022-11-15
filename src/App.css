@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid blue;
+  border-radius: 15px;
+  padding: 20px;
+  gap: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 35px 25px;
+}
+
+
+
+.list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  border:2px solid blue;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: rgba(83, 83, 128, 0.2) 0px 0px 35px 25px;
+
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.modal-container {
+  width: 500px;
+  min-height: 100px;
+  background: #ffff;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 35px 6px;
+  padding: 20px;
+}
+
+.header-modal {display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:20px;
+  padding-bottom:20px;
+  border-bottom: 1px solid #e8e8e8;
+
+
+}
+
+h1 {
+  font-weight: 500px;
+  font-size: 16px;
+  color: #1766dc;
+}
+
+.button{
+  position:absolut;
+  top:20px;
+  padding: 7px;
+  width:30px;
+  height:30px;
+  border:none;
+  background:none;
+  cursor:pointer;
+  transition: .3s ease all;
+  border-radius:5px;
+  color:#1766dc;
+
+}
+
+.button:hover{
+  background:#f2f2f2;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center ;
+  gap:20px;
+  padding: 7px;
+}
